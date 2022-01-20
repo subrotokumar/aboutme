@@ -29,7 +29,7 @@ body{
 }
 h1{
     font-family: 'Architects Daughter', cursive;
-    color:#81d2da;
+     color:#81d2da;
     font-size: 5.25rem;
     margin:0 auto;
 
@@ -53,10 +53,30 @@ hr{
     border-top-style: dotted;
 }
 /*********************** ID SELECTOR ****************************/
+.heading{
+    position: absolute;
+    top:0px;
+    width:100%;
+    background-color: #e3fdfd;
+    margin-top: 50px;
+    height:200px;
+    text-decoration: solid;
+
+}
+.heading-img{
+    width:4%;
+    position:absolute;
+    left: 30px;
+    top:-20px;
+    visibility: hidden;
+}
+.heading-img:hover{
+    width:4.5%;
+}
 #main-div{
     background-color: #e3fdfd;
     border:0;
-    padding-top: 50px;
+    padding-top: 160px;
     width: 100%;
 }
 .middle-container{
@@ -99,15 +119,14 @@ hr{
 
 .top-cloud{
     position: relative;
-    left:450px;
-    top:50px;
+    left:30%;
+    top:30%;
     width:8%;
-    
 }
 .bottom-cloud{
     position: absolute;
     width:10%;
-    left:150px;
+    left:10%;
 }
 .mountain{
     margin-top:20px;
@@ -122,6 +141,20 @@ hr{
     font-family: Verdana, Geneva, sans-serif; font-size: 24px; font-style: normal;
 }
 .footer-link:hover{
+    font-size:1.5rem;
+    text-decoration: none;
+    margin:20px;
+    color:#d3cbcb;
+    font-family: Verdana, Geneva, sans-serif; font-size: 24px; font-style: normal;
+}
+.footer-link{
+    font-size:1.5rem;
+    text-decoration: none;
+    margin:20px;
+    color:#11999E;
+    font-family: Verdana, Geneva, sans-serif; font-size: 24px; font-style: normal;
+}
+.about-link{
     font-size:1.5rem;
     text-decoration: none;
     margin:20px;
